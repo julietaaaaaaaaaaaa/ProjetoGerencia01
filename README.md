@@ -6,4 +6,4 @@ Projeto Componente CardNFT para a matéria Gerência e Configurações de Servi�
 
 => Maria Luiza Martins Meira
 
-Escolhemos como tema para a criação de imagens para os cards responsivos, fazer superheróis no estilo da animação: Miraculos, as aventuras de LadyBug. Utilizamos a IA Leonardo 
+Escolhemos como tema para a criação de imagens para os cards responsivos, fazer superheróis no estilo da animação: Miraculos, as aventuras de LadyBug e utilizamos a IA Leonardo para a criação das imagens.
