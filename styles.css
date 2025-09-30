@@ -1,3 +1,25 @@
+/* Reset básico */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #0e4d6e; /* Azul elegante */
+  color: white;
+  padding: 1.5rem 2rem;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Animação fadeInDown para o título */
 @keyframes fadeInDown {
   0% {
     opacity: 0;
@@ -15,4 +37,14 @@ header h1 {
   font-weight: 700;
   letter-spacing: 1.5px;
   animation: fadeInDown 1.5s ease forwards;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+  header {
+    padding: 1rem 1rem;
+  }
+  header h1 {
+    font-size: 1.8rem;
+  }
 }
