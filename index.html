@@ -1,15 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+ <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Meu Projeto</title>
-
-  <!-- Link para o CSS externo -->
   <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
 
-  <!-- Importa a fonte Fredoka One do Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet" />
+</head>
+
+  <style>
+    /* Reset básico */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #0e4d6e; /* Azul elegante */
+      color: white;
+      padding: 1.5rem 2rem;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+    }
+
+    /* Responsividade */
+    @media (max-width: 600px) {
+      header {
+        padding: 1rem 1rem;
+      }
+      header h1 {
+        font-size: 1.8rem;
+      }
+    }
+  </style>
 </head>
 <body>
 
@@ -134,6 +172,7 @@
           <p>Creation of <span>Jules Wyvern</span></p>
         </div>
       </div>
+  <!-- Aqui você pode adicionar mais conteúdo depois -->
 
       <div class="card">
         <img src="ImagesModali/cabeleiraMagenta.jpg" alt="NFT" class="nft">
@@ -247,32 +286,7 @@
         </div>
       </div>
 
-      <div class="card">
-        <img src="ImagesDragonfly/Kitana.jpg" alt="NFT" class="nft">
-        <h2>Equilibrium #3439</h2>
-        <p>Experience the balance like never before.</p>
-        <div class="info">
-          <span class="price">0.046 ETH</span>
-          <span>5 days left</span>
-        </div>
-        <div class="creator">
-          <img src="ImagesDragonfly/Kitana.jpg" alt="creator">
-          <p>Creation of <span>Jules Wyvern</span></p>
-        </div>
-      </div>
-
-      <div class="card">
-        <img src="ImagesMarie/Lucid_Origin_make_a_image_of_a_powerful_Black_superheroine_wit_0.jpg" alt="NFT" class="nft">
-        <h2>Equilibrium #3440</h2>
-        <p>Bold, beautiful, and balanced.</p>
-        <div class="info">
-          <span class="price">0.053 ETH</span>
-          <span>4 days left</span>
-        </div>
-        <div class="creator">
-          <img src="ImagesMarie/Lucid_Origin_make_a_image_of_a_powerful_Black_superheroine_wit_0.jpg" alt="creator">
-          <p>Creation of <span>Jules Wyvern</span></p>
-        </div>
+    
       </div>
 
     </div>
