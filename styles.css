@@ -149,3 +149,27 @@ main {
     font-size: 1.8rem;
   }
 }
+
+footer {
+  background-color: #0e4d6e; /* Mesmo azul do header */
+  color: white;
+  text-align: center;
+  padding: 1.5rem 2rem;
+  font-family: 'Fredoka One', cursive;
+  font-size: 1rem;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 3rem;
+  animation: fadeInUp 1.5s ease forwards;
+}
+
+/* Animação para o footer subir suavemente */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
