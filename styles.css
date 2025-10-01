@@ -19,7 +19,6 @@ header {
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-/* Animação fadeInDown para o título */
 @keyframes fadeInDown {
   0% {
     opacity: 0;
@@ -40,7 +39,7 @@ header h1 {
 }
 
 /* ===================== */
-/*       CARDLIST        */
+/*       MAIN & CARDS    */
 /* ===================== */
 
 main {
@@ -51,7 +50,7 @@ main {
 
 .card-list {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Força 4 cards por linha */
+  grid-template-columns: repeat(4, 1fr);
   gap: 20px;
   width: 100%;
   max-width: 1100px;
@@ -92,7 +91,7 @@ main {
 }
 
 .card img.nft:hover {
-  filter: brightness(1.2) drop-shadow(0 0 15px #00fff7); /* glow azul */
+  filter: brightness(1.2) drop-shadow(0 0 15px #00fff7);
 }
 
 .card h2 {
@@ -140,12 +139,41 @@ main {
   color: white;
 }
 
-/* Responsividade */
+/* ===================== */
+/*      RESPONSIVO       */
+/* ===================== */
 @media (max-width: 600px) {
   header {
     padding: 1rem 1rem;
   }
+
   header h1 {
     font-size: 1.8rem;
+  }
+}
+
+/* ===================== */
+/*        FOOTER         */
+/* ===================== */
+footer {
+  background-color: #0e4d6e;
+  color: white;
+  padding: 1rem 2rem;
+  text-align: center;
+  font-family: 'Fredoka One', cursive;
+  font-size: 1rem;
+  box-shadow: 0 -2px 8px rgba(0,0,0,0.1);
+  margin-top: 3rem;
+  animation: fadeInUp 1.5s ease forwards;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
